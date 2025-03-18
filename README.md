@@ -5,3 +5,5 @@ study AI Life
 3.소프트맥스 다중 분류 모델
 4.RNN
 5.CNN
+git congfig user.name"my name is ryujeock"
+git congfig user. eamail"ryujeouk10730@gmail.com"
