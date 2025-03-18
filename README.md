@@ -6,4 +6,4 @@ study AI Life
 4.RNN
 5.CNN
 git config user.name "my name is ryujeock"
-git config user.eamail "ryujeouk10730@gmail.com"
+git config user.email "ryujeouk10730@gmail.com"
