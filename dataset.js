@@ -29,14 +29,16 @@ d1.set_img(0,{imgtitle:"모델의 예측 결과 측정",imglog:"테스트 데이
 
 
 d1.set_content("캘리포니아 주택 가격 예측 선형 회귀모델")
-d1.set_img(2,{imgtitle:"캘리포니아 주택 특성 데이터 수신 및 분석",imglog:"사이킷런에서 제공하는 캘리포니아 주택 가격에 따른 데이터특성",imgurl:"https://drive.google.com/file/d/1wWE3b8WY64nrjxLLFwGtCbduaSKcriZv/view?usp=drive_link",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
+d1.set_img(2,{imgtitle:"캘리포니아 주택 특성 데이터 수신 및 분석",imglog:"사이킷런에서 제공하는 캘리포니아 주택 가격에 따른 데이터특성(x)들의 모음과 그에 따른 가격정보(y)",imgurl:"https://drive.google.com/file/d/1wWE3b8WY64nrjxLLFwGtCbduaSKcriZv/view?usp=drive_link",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
 d1.set_img(2,{imgtitle:"주택 특성과 가격의 연관성 분석",imglog:"주택의 특성별 산점도 분석으로 가격에 따른 선형성 확인",imgurl:"https://drive.google.com/file/d/1__PHSwsnewoSdkxx_k1VdbOy6qN8xEsV/view?usp=drive_link",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
 d1.set_img(2,{imgtitle:"데이터 통계정보 분석",imglog:"판다스 데이터프레임으로 전환후 평균치,표준편차등의 데이터 통계정보 분석",imgurl:"https://drive.google.com/file/d/1GheIbiZmQVkRcSQCjeXiBtasREBGaL-u/view?usp=drive_link",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
 d1.set_img(2,{imgtitle:"데이터 분포확인",imglog:"히스토그램으로 데이터 분포 시각화와 이상데이터 또는 범위를 벗어난 데이터",imgurl:"https://drive.google.com/file/d/1X7ySO7TzLBwS7RL30CMogx9dLQu2qBH-/view?usp=drive_link",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
-d1.set_img(2,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
-d1.set_img(2,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
-d1.set_img(2,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
-d1.set_img(2,{imgtitle:"",imglog:"",imgurl:"",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
+d1.set_img(2,{imgtitle:"이상 데이터 제거",imglog:"범위를 벗어나거나 이상치 데이터는 성능에 치명적인 영향을 줄 수 있으므로 이상치 및 범위를 벗어난 데이터를 제거하여 데이터 정제를 수행",imgurl:"https://drive.google.com/file/d/1TP7Gq4QWChofLqk_3fStKkxkmWIdix5e/view?usp=drive_link",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
+d1.set_img(2,{imgtitle:"데이터 정제후 분포확인",imglog:"데이터 전처리 시행후 데이터 범위등의 히스토그램으로 이상데이터 분포확인",imgurl:"https://drive.google.com/file/d/1seYz-A6JlqdJDF5Dw1laxGR9sIproDtg/view?usp=drive_link",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
+d1.set_img(2,{imgtitle:"훈련데이터와 테스트데이터 분할",imglog:"훈련데이터 80%, 테스트 데이터 20%를 사이킷런 라이브러리를 이용하여 분할 및 데이터 정규분포화 실행",imgurl:"https://drive.google.com/file/d/1BxbKrF5eklvzd_RpXu3LOX6YDgLPCkuo/view?usp=drive_link",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
+d1.set_img(2,{imgtitle:"신형회귀 기계학습 모델 구성과 훈련",imglog:"은닉층이 존재하지 않는 머신러닝 모델을 구성하고 평균절대오차 손실함수 설정과 경사하강법으로 최적화 함수를 설정한후 훈련 100회 실행",imgurl:"https://drive.google.com/file/d/1VBNT_eCG0nYr77RyEPU7yfVC-2Sl9vDJ/view?usp=drive_link",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
+d1.set_img(2,{imgtitle:"훈련결과 시각화",imglog:"훈련시 저장된 손실값을 이용하여 시각화 그래프 표현",imgurl:"https://drive.google.com/file/d/1Iiwo56KlbvQFL_nh3WzF8RXFiVhW09FY/view?usp=drive_link",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
+
 
 d1.set_content("당뇨상태 1년후 예측 선형 회귀모델.")
 d1.set_img(2,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
