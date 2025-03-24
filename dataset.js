@@ -1,4 +1,4 @@
-
+// github.com/dmsgur/ai_train_0317
 //메뉴 생성기 종료 E==============================
 //데이터 아키텍처{sub_title:"",sub_content:"",sub_img:[],user_fill:""}
 let data_sets=[]
@@ -49,7 +49,19 @@ data_sets.push(d1)
 // menu2 =============================================================
 let d2 = new DataSet("분류모델구현")//메인타이틀
 d2.set_concontent("패션 mnist 회귀 다중 분류")//서브 타이틀
-d2.set_img(2,{imgtitle:"",imglog:"",imgurl:"https://github.com/okje001/AI_train_0317/blob/main/dataset.js#L5",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"fashion_mnist 데이터 수신",imglog:"구글에서 제공하는드레스,셔츠,샌달등의 패션관련 이미지 다운로드",imgurl:"https://drive.google.com/file/d/1xJrZABpFMSeUTqMat4jT9bzABvu_s1rC/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"수신데이터 확인",imglog:"훈련데이터6만개,테스트 데이터 1만개, 이미지사이즈 28,28 1채널 그레이,정답데이터 정수형",imgurl:"https://drive.google.com/file/d/1HFHpvxtTkzmVEtqPm42i9Oo71KfTTV-Y/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"훈련데이터 minmax 정규환",imglog:"훈련데이터의 0~1 사이값으로 정규화 실행",imgurl:"https://drive.google.com/file/d/1I0EvIAWHUg8CaWzfuIQT9E7fEZcG6Pq9/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"데이터 셔플링 및 정답일치성 확인",imglog:"데이터 셔플링 후 정답과 일치하도록 셔플이 되어있는확인작업",imgurl:"https://drive.google.com/file/d/1XmwRH3zR1YT_3DVZqKLcBS_7lMk4nqpb/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"커스텀 원핫인코딩 수행",imglog:"커스텀 원핫인코딩 클래스 생성후 원하는 방법으로 원핫인코딩후 작동확인",imgurl:"https://drive.google.com/file/d/106vepZVrdxv_w8vMH4yk68KvS0H2kDmf/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"모델컴파일 및 훈련실행",imglog:"flatten으로 완전층 연결후 다중분류 모델로 softmax활성화 함수로 10class출력",imgurl:"https://drive.google.com/file/d/1XNj9OYSErYhcT-3C18Wvv7h9rlW38HLQ/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"훈련결과시각화",imglog:"훈련 종료후 손실 및 정확도 시각화 표현",imgurl:"https://drive.google.com/file/d/1LFM4ODFNVeijrGqRikUmvCXa_BT8mkZO/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"테스트 데이터 예측",imglog:"모델의 테스트데이터 예측과 에측결과 시각화",imgurl:"https://drive.google.com/file/d/1NKxwJYkAq4S5VUQVLyUX_hvl1NysZgBf/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"모델 및 인코더 저장",imglog:"훈련된 모델의 저장과 레이블이 연결된 인코더 파일로 저장",imgurl:"https://drive.google.com/file/d/17X_Y4VTOWZXT2DLWWFcZms1uQqJJRf8M/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"모델과 인코더 불러오기",imglog:"실제 이미지 측정을 위해 훈련된 모델과 라벨 인코더 다시 불러오기",imgurl:"https://drive.google.com/file/d/1MTw5_jF9DTEGO3MKwRIzLXWzBhedGGPB/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"실제이미지 테스트",imglog:"인터넷의 이미지를 복사하여(teest_img) 모델에 적합하도록 전처리후 예측값 출력",imgurl:"https://drive.google.com/file/d/181EVwaUpBiIxp-tW5ZPVC9bIz9kxhYnv/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+d2.set_img(2,{imgtitle:"실제 이미지 예측결과 시각화",imglog:"실제이미지를 예측한 결과를 시각화 하여 표현",imgurl:"https://drive.google.com/file/d/1sDj0yW-HBisd8NV01CsmDrjIFufwa0Ne/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Examp_classification_fashionMnist.ipynb"})//이미지타이틀
+
 
 
 data_sets.push(d2)
