@@ -41,13 +41,16 @@ d1.set_img(2,{imgtitle:"훈련결과 시각화",imglog:"훈련시 저장된 손�
 
 
 d1.set_content("당뇨상태 1년후 예측 선형 회귀모델.")
-d1.set_img(2,{imgtitle:"",imgurl:"",imglog:"",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
+d1.set_img(2,{imgtitle:"1년후 당뇨상태 예측",imgurl:"",imglog:"",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
 
 d1.set_fill("선형 회귀모델은 데이터를 이용하거나 다중데이터를 이용하여 연속적인 값을 출력하여 예측한다")//사용자 에필로그
 data_sets.push(d1)
 
 // menu2 =============================================================
-let d2 = new DataSet("공통모듈구현")//메인타이틀
+let d2 = new DataSet("분류모델구현")//메인타이틀
+d2.set_concontent("패션 mnist 회귀 다중 분류")//서브 타이틀
+d2.set_img(2,{imgtitle:"",imglog:"",imgurl:"https://github.com/okje001/AI_train_0317/blob/main/dataset.js#L5",sourceurl:"http://localhost:8888/notebooks/Examo_linearRegression_CaliforniaHousing.ipynb"})//이미지타이틀
+
 
 data_sets.push(d2)
 
