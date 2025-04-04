@@ -74,7 +74,8 @@ data_sets.push(d2)d2.set_img(2,{imgtitle:"모델평가 및 예측값",imglog:"�
 data_sets.push(d2)d2.set_img(2,{imgtitle:"혼동행렬 산출하기",imglog:"정답과 예측값 형태를 일치시킨후 혼동행렬 구하기",imgurl:"https://drive.google.com/file/d/1a7HLrl6jk5Me14giymNzQYbTWLYQgGJm/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Classification_Convolution/Examp_classification_fashionMnist%20(1).py"})//이미지타이틀
 data_sets.push(d2)d2.set_img(2,{imgtitle:"혼동행렬시각화 및 flscore",imglog:"히트맵을 이용한 혼동행렬릐 시각화와 리포트 요약기능을 이용한 정밀도,재현율flscore 출력",imgurl:"https://drive.google.com/file/d/1Fmd52dnEK_zYXaUwL8DmwD35ys9lgxra/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Classification_Convolution/Examp_classification_fashionMnist%20(1).py"})//이미지타이틀
 data_sets.push(d2)d2.set_img(2,{imgtitle:"합성곱층 풀링층 실습",imglog:"합성곱층의 특성맵과 훌링층의 특성 요약에 대한 형태 실습확인",imgurl:"https://drive.google.com/file/d/1QeoL6VO9nW-gF2hGICZ4q3npxQnBgOXT/view?usp=drive_link",sourceurl:"https://github.com/okje001/AI_train_0317/blob/main/ClassificationSoftmax_fashionmninst/Classification_Convolution/fashionmnist_classification_convolution.py"})//이미지타이틀
-
+d2.set_fill("")//사용자 에필로그
+data_sets.push(d2)d2.set_img(2,{imgtitle:"",imglog:"",imgurl:"",sourceurl:""})//이미지타이틀
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
 
